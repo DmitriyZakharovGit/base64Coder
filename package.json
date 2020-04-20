@@ -1,11 +1,12 @@
 {
   "name": "base64coder",
-  "version": "1.0.1",
-  "description": "This is ",
+  "version": "1.0.3",
+  "description": "\nThis plugin is designed to hash data in the source code.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dmitriy Zakharov",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": ["base64", "string"]
 }
