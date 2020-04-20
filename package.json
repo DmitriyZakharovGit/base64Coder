@@ -1,6 +1,6 @@
 {
   "name": "base64coder",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "\nThis plugin is designed to hash data in the source code.",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,7 @@
   },
   "author": "Dmitriy Zakharov",
   "license": "ISC",
-  "keywords": ["base64", "string"]
+  "keywords": ["base64", "string"],
+  "repository": "DmitriyZakharovGit/base64Coder",
+  "bugs": "https://github.com/DmitriyZakharovGit/base64Coder/issues/"
 }
