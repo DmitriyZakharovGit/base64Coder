@@ -1,7 +1,7 @@
 ## Base64Coder
 
 ### Info
-##### This library will help you encode data to hide it after building.
+This library will help you encode data to hide it after building.
 
 ### Using:
 #####1.Create a file with export data.

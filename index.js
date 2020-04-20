@@ -1,4 +1,4 @@
-module.exports = function(source) {
+function encode(source) {
     const data = JSON.parse(source);
     const dataBase64 = {};
 
@@ -7,4 +7,16 @@ module.exports = function(source) {
     }
 
     return `export default ${ JSON.stringify(dataBase64) }`;
-};
+}
+
+function decode(source) {
+    const decodeData = {};
+
+    for(let item in source) {
+        decodeData[item] = Buffer.from(source[item], 'base64').toString('utf-8');
+    }
+
+    return decodeData;
+}
+
+module.exports = { encode, decode };
