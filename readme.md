@@ -1,7 +1,10 @@
 ## Base64Coder
 
+### Info
+##### This library will help you encode data to hide it after building.
+
 ### Using:
-**1.Create a file with export data.**
+#####1.Create a file with export data.
 
 Example:
 ```javascript
@@ -17,7 +20,7 @@ module.exports = {
 };
 ```
 
-**2.Import your file.**
+#####2.Import data in your controller.
 ```javascript
 import data from './data.loader';
 
@@ -36,16 +39,20 @@ import data from './data.loader';
 })();
 ```
 
-**3.Webpack.**
+#####3.Webpack.
 
 Add loader for your js files with mask.
 
 ```none
+const base64coder = required('base64coder');
+
+...
+
 module: {
     rules: [{
-        test: /\.loader.json$/,
+        test: /\.fileMask.js$/,
         use: [{
-            loader: path.resolve('./loader/custom-loader.js'),
+            loader: base64coder,
         }]
     },
     ...
