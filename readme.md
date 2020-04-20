@@ -3,6 +3,8 @@
 ### Info
 This library will help you encode data to hide it after building.
 
+[NPM Link](https://www.npmjs.com/package/base64coder)
+
 ### Using:
 #####1.Create a file with export data.
 
