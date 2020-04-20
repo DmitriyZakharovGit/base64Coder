@@ -20,8 +20,10 @@ module.exports = {
 };
 ```
 
-#####2.Import data in your controller.
+#####2.Import data in your controller and decode method.
 ```javascript
+import decode from 'base64coder/decode';
+
 import data from './data.loader';
 
 (function showDecode() {
@@ -29,30 +31,22 @@ import data from './data.loader';
 })();
 
 (function showEncode() {
-    const decodeData = {};
-
-    for(let item in data) {
-        decodeData[item] = Buffer.from(data[item], 'base64').toString('utf-8');
-    }
-
-    console.log(decodeData);
+    console.log(decode(data));
 })();
 ```
 
 #####3.Webpack.
 
-Add loader for your js files with mask.
+Add loader for your js files with mask. You can choose any mask.
 
 ```none
-const base64coder = required('base64coder');
-
 ...
 
 module: {
     rules: [{
         test: /\.fileMask.js$/,
         use: [{
-            loader: base64coder,
+            loader: 'base64coder',
         }]
     },
     ...
