@@ -9,7 +9,9 @@ function encode(source) {
         const dataBase64 = {};
 
         for(let item in data) {
-            dataBase64[item] = Buffer.from(JSON.stringify(data[item]).toString('base64'));
+            if (Object.prototype.hasOwnProperty.call(data, item)) {
+                dataBase64[item] = Buffer.from(JSON.stringify(data[item]).toString('base64'));
+            }
         }
 
         acc.push(dataBase64);
