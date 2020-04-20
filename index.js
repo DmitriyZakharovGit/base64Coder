@@ -19,4 +19,5 @@ function decode(source) {
     return decodeData;
 }
 
-module.exports = { encode, decode };
+module.exports = encode;
+module.exports = { decode };
