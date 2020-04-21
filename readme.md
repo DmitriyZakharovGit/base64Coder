@@ -55,3 +55,10 @@ module: {
     ],
 }
 ```
+
+### Min version
+You can use a minified version:
+1. In loader change name ```'base64coder'``` to ```'base64coder/index.min.js'```;
+2. In controller change import lib from ```import decode from 'base64coder/decode';``` to ```import decode from 'base64coder/decode.min';```
+
+In the future minified version will be basic.
