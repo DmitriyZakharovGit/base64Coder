@@ -11,21 +11,19 @@ This library will help you encode data to hide it after building.
 Example:
 ```javascript
 const data1 = {
-    'header': 'Назовите столицу России?',
-    'questions': [
-        {
-            'text': 'Москва',
-            'isRight': true
-        },
-     ...
-    ]
+    'header': 'What is the capital of Russia?',
+    'questions': [{
+        'text': 'Moscow',
+        'isRight': true
+    }]
 };
 
 const data2 = {
-    ...,
+  'title': 'JS or JSON?',
+  'text': 'This is page created for ...'
 };
 
-// Need for export data
+// Need for export data in loader (create variable with name *base64data*)
 const base64data = [data1, data2];
 module.exports = base64data;
 ```
