@@ -10,7 +10,7 @@ This library will help you encode data to hide it after building.
 
 Example:
 ```javascript
-module.exports = {
+const data1 = {
     'header': 'Назовите столицу России?',
     'questions': [
         {
@@ -20,6 +20,14 @@ module.exports = {
      ...
     ]
 };
+
+const data2 = {
+    ...,
+};
+
+// Need for export data
+const base64data = [data1, data2];
+module.exports = base64data;
 ```
 
 2.Import data in your controller and decode method.
