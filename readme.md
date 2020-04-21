@@ -1,7 +1,16 @@
 ## Base64Coder
+[![NPM version](https://img.shields.io/npm/v/base64coder.svg)](https://www.npmjs.com/package/base64coder)
+
+### Installing
+You can install base64coder using npm:
+
+```
+$ npm install base64coder
+```
+
 
 ### Info
-This library will help you encode data to hide it after building.
+This library will help you encode data to hide it after building in source.
 
 [NPM Link](https://www.npmjs.com/package/base64coder)
 
@@ -23,8 +32,8 @@ const data2 = {
   'text': 'This is page created for ...'
 };
 
-// Need for export data in loader (create variable with name *base64data*)
-const base64data = [data1, data2];
+// Need for export data in loader (create variable with name base64data)
+var base64data = [data1, data2];
 module.exports = base64data;
 ```
 
