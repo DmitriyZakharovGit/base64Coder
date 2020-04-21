@@ -1,7 +1,9 @@
-## Base64Coder
+# Base64Coder
+
 [![NPM version](https://img.shields.io/npm/v/base64coder.svg)](https://www.npmjs.com/package/base64coder)
 
-### Installing
+## Installing
+
 You can install base64coder using npm:
 
 ```
@@ -9,10 +11,12 @@ $ npm install base64coder
 ```
 
 
-### Info
+## Info
+
 This library will help you encode data to hide it after building in source.
 
-### Using:
+## Using:
+
 1.Create a file with export data (name ex.: 'data.loader.js').
 
 Example:
@@ -69,7 +73,7 @@ module: {
 }
 ```
 
-### Min version
+## Min version
 You can use a minified version:
 1. In loader change name ```'base64coder'``` to ```'base64coder/index.min.js'```;
 2. In controller change import lib from ```import decode from 'base64coder/decode';``` to ```import decode from 'base64coder/decode.min';```
