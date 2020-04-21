@@ -1,6 +1,6 @@
 {
   "name": "base64coder",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "\nThis plugin is designed to hash data in the source code.",
   "main": "index.js",
   "scripts": {
