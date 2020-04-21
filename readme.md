@@ -79,3 +79,11 @@ You can use a minified version:
 2. In controller change import lib from ```import decode from 'base64coder/decode';``` to ```import decode from 'base64coder/decode.min';```
 
 In the future minified version will be basic.
+
+## Examples
+
+You can open examples (click on candy image):
+
+<a href="https://github.com/DmitriyZakharovGit/base64Coder/tree/master/examples/1">
+    <img src="https://site-images.similarcdn.com/url?url=https%3A%2F%2Flh3.googleusercontent.com%2FAx2wQYxjDITuZEpc6K9EDYPG7C839tb4PApia4Tmf18u8XehB-twqhVgDVPgxxExkr4%3Ds180&h=c784111a3b195f517e8b3886bd533f4fec7fcb3a66a9d6c5e79a03d0a0fc32b8" width="80">
+</a>
