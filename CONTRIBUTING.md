@@ -13,4 +13,4 @@ You can refactoring our code in pull request.
 ## Integration
 
 
-Regarding any integration, please write in messages to [Dmitriy Zakharov](mailto:forsocials@mail.ru?subject=[GitHub]%20base64coder%20-%20integration)
+Regarding any integration, please write in messages to [Dmitriy Zakharov](mailto:forsocials@mail.ru)
